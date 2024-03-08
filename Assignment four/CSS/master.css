@@ -1,0 +1,36 @@
+/* Assignment one
+    div.child span.title {
+        color: red;    
+    }
+
+    div span.title{
+        color: blue;
+    }
+
+    div p{
+        color: green;
+    }
+
+    div.title{
+        color: green;
+    }
+
+    div p,
+    div.title{
+        color: green;
+    } 
+*/
+
+/* Assignment two
+    div{
+        background-color: brown;
+        color: white;
+        padding: 10px;
+        overflow-y: hidden;
+        width: fit-content;
+        max-height: 30px;
+        max-width: 400px;
+        margin: 20px;
+    }
+ */
+
