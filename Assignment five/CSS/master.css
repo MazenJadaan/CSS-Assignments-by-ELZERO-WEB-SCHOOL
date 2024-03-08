@@ -1,0 +1,59 @@
+/* Assignment one 
+    .shadow{
+        text-shadow: 1px 0 0 red , 2px 0 0 blue;
+    } 
+*/
+
+/* Assignment two
+    .one{
+        text-transform: uppercase;
+    }
+
+    .two{
+        text-transform: capitalize;
+    }
+
+    .three{
+        text-transform: lowercase;
+    }
+ */
+
+ /* Assignment three
+    div{
+        background-color: #eee;
+        width: 400px;
+        padding: 15px;
+        overflow: hidden;
+
+    }
+
+    div{
+        text-wrap: nowrap;
+    }
+
+    div{
+        text-overflow: ellipsis;
+    } 
+ */
+
+ /* Assignment four
+    a{
+        color: white;
+        background-color: #009688;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 50px;
+        display: block;
+        width: 400px;
+        text-align: center;
+        font-size: 50px;
+        border-bottom: 15px solid #00514a;
+        margin: 0 auto;
+        border-radius: 25px;
+    } 
+ */
+
+
+
+
+
