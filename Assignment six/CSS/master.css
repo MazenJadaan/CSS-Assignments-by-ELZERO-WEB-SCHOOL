@@ -1,0 +1,51 @@
+/* Assignment one
+    div{
+        border: 5px orangered solid;
+        text-align: center;
+        padding: 30px;
+    }
+
+    div p{
+        background-color: #eee;
+        padding: inherit;
+        border: inherit;
+    } 
+*/
+
+/* Assignment two
+    .one{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .two{
+        font-family: "Cairo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .three{
+        font-family: "Jomhuria", serif;
+        font-weight: 400;
+        font-style: normal
+    } 
+*/
+
+/* Assignment three
+    html{
+        font-size: 20px;
+    }
+
+    .one {
+        font-size: 2.5rem;
+    }
+
+    .two{
+        font-size: 2rem;
+    }
+
+    .three{
+        font-size: 1.5rem;
+    }
+ */
