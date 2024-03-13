@@ -1,0 +1,175 @@
+/* Assignment one
+    div{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .green{
+        background-color: green;
+        z-index: 2;
+        top: 30px;
+        left: 30px;
+    }
+
+    .red{
+        background-color: red;
+        z-index: 3;
+        top: 40px;
+        left: 40px;
+    }
+
+    .blue{
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .black{
+        background-color: black;
+        top: 30px;
+        left: 20px;
+
+    }
+ */
+
+
+ /*  Assignment two
+    div{
+        width: 400px;
+        margin: 30px auto;
+        position: relative;
+        padding: 30px;
+        background-color: #eee;
+        border-left: 2px solid blue;
+        border-right: 2px solid blue;
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+    }
+
+    div span{
+        background-color: blue;
+        padding: 5px 15px;
+        position: absolute;
+        text-align: center;
+        color: white;
+    }
+
+    .top-left{
+        top: -15px;
+        left: -15px;
+        border-right: 2px solid red;
+    }
+
+    .bottom-left{
+        bottom: -15px;
+        left: -15px;
+        border-right: 2px solid red;
+    }
+
+    .top-right{
+        top: -15px;
+        right: -15px;
+        border-left: 2px solid red;
+    }
+
+    .bottom-right{
+        bottom: -15px;
+        right: -15px;
+        border-left: 2px solid red;
+    } 
+*/
+
+/* Assignment three 
+    .parent{
+        width: 400px;
+        margin: 30px auto;
+    }
+
+    .html,
+    .css,
+    .js{
+        list-style-type: none;
+        background-color: #eee;
+        margin-bottom:20px;
+        padding: 10px;
+    }
+
+    .html li,
+    .css li,
+    .js li{
+        background-color: white;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+    .html li,
+    .css li {
+        padding-left: 5px;
+        margin-left: -5px;
+    }
+
+    .css li{
+        list-style-type: upper-roman;
+    }
+
+    .js li {
+        list-style-position: inside;
+        margin-left: -40px ;
+    } 
+*/
+
+/* Assignment four 
+    table{
+        width: 700px;
+        margin: 30px auto ;
+        text-align: center;
+        padding: 50px;
+    }
+
+    table td{
+        padding: 15px;
+    }
+
+    table thead tr{
+        background-color: rgb(64,64,64);
+        color: white;
+    }
+
+    table tbody tr{
+        background-color: rgb(238,238,238);
+    }
+
+    span{
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: medium;
+    }
+
+    .view{
+        background-color: rgb(3,169,244);
+        padding: 5px;
+    }
+
+    .del{
+        background-color: rgb(233,30,99);
+        padding: 5px;
+    }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
