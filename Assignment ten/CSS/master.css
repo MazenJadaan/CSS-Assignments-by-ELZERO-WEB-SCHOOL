@@ -1,0 +1,115 @@
+/* Assignment num.1 
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+        float: left;
+        width: calc((100%-30px)/3);
+        margin-right: 20px;
+        border: 2px solid black;
+        border-radius: 50px;
+        box-shadow: -5px -5px 0px 0px #e91e63,
+                    5px 5px 0px 0px #2196f3;
+        position: relative;
+        counter-increment: num;
+    }
+
+    div::before{
+        content:counter(num);
+        background-color: black;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        border-radius: 12.5px;
+        color: white;
+        text-align: center;
+        line-height:25px;
+        top: -10px;
+        left: 35px;
+    }
+
+    div::after{
+        content: "Element";
+        position: absolute;
+        bottom: 45px;
+        left: 20px;
+    }
+ */
+
+ /* Assignment num.2
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: #efefef;
+        margin: 50% auto;
+        border-top-left-radius: 10px 20px;
+        border-bottom-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 10px 20px;
+        box-shadow: 0 0 7px 5px #9a9a9a inset;
+    }
+  */
+
+  /* Assignment num.3
+    .parent{
+        width: 550px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+
+    .one,
+    .two {
+        background-color: #eee;
+        float: left;
+        width: 150px;
+        height: 200px;
+        padding: 20px;
+        margin-right: 40px;
+        position: relative;
+    }
+
+    .basic,
+    .pro{
+        background-color: #03a9f4;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .free,
+    .price{
+        background-color: #ccc;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        text-align: center;
+        line-height: 140px;
+        font-size: 1.5rem;
+    }
+
+    .one::after{
+        content:"";
+        background-color: #03a9f4;
+        height: 100%;
+        position: absolute;
+        width: 2px;
+        top: 0;
+        left:205px;
+    }
+
+    .two::before{
+        content: "or";
+        position: absolute;
+        background-color: #03a9f4;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        line-height: 25px;
+        top: 100px;
+        right: 197px;
+    }
+ */
