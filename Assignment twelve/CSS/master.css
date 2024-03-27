@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Assignment nom.1
+    div{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        background-color: #eee;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        color: #ff5722;
+        font-weight: bold;
+        border-left: 5px solid #03a9f4;
+        border-right: 5px solid #ff5722;
+    } 
+*/
+
+ /* Assignment nom.2
+    .parent{
+        width: 600px;
+        height: 300px;
+        margin: auto;
+        background-color: #eee;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+    }
+
+    .parent div{
+        display: flex;
+        background-color: #f44336;
+        margin: 5px 0 ;
+        padding: 10px;
+        color: white;
+        width: calc(90% / 3);
+        justify-content: center;
+        align-items: center;
+    } 
+*/
+
+/* Assignment nom.3
+    .parent {
+        background-color: #eee;
+        width: 600px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .parent div{
+        background-color: #607d8b;
+        color: white;
+        width: calc(90% / 3);
+        padding: 10PX;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one{
+        order: 9;
+        align-self: flex-end;
+    }
+
+    .two{
+        order: 8;
+    }
+
+    .three{
+        order: 2;
+        align-self: flex-start;
+    }
+
+    .four{
+        order: 5;
+    }
+
+    .five{
+        order: 7;
+    }
+
+    .six{
+        order: 1;
+    } 
+*/
+
+ /* Assignment four
+    .parent{
+        width: 600px;
+        height: 300px;
+        margin: 10px auto;
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 10px;
+    }
+
+    .parent div{
+        background-color: #009688;
+        color: white;
+        height: calc(90% / 3);
+        width: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .two{
+        align-self: flex-start;
+        width: 50% !important;
+    } 
+*/
+
+/* Assignment five
+    .parent{
+        background-color: #eee;
+        width: 600px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .parent div{
+        color: white;
+        width: 15%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one{
+        background-color: #ff9800;
+        order: 2;
+    }
+
+    .two{
+        order: 3;
+        background-color: #8bc34a;
+        align-self: flex-end;
+    }
+
+    .three{
+        order: 4;
+        background-color: #795548;
+    }
+
+    .four{
+        order: 1;
+        background-color: #673ab7;
+        align-self: flex-end;
+    }  
+*/
+
+/* Notes that the width is selected by trying :)  */
+
+/* Assignment six
+    :root{
+        --elemPadding: 10px;
+        --childColor: #ddd;
+        --elemMargin: 10px;
+    }
+
+    .page{
+        background-color: #eee;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo,
+    .links{
+        margin: var(--elemMargin) ;
+        padding: var(--elemPadding);
+        background-color: var(--childColor);
+        display: flex;
+        width:calc(100% / 15) ;
+    }
+
+    .links{
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .links li{
+        list-style: none;
+        padding-left: var(--elemPadding);
+    }
+
+    .main-area{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-area div{
+        margin: var(--elemMargin);
+        background-color: var(--childColor);
+        height: 400px;
+        padding: var(--elemPadding);
+        width: calc(100% / 3);
+    }
+
+    .main-area .content{
+        flex-grow: 1;
+    }
+
+    .footer{
+        margin: var(--elemMargin);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer div{
+        background-color: var(--childColor);
+        padding: var(--elemPadding);
+        margin-bottom: var(--elemMargin);
+    }
+
+    .copyright{
+        flex-grow: 1;
+    } 
+*/
