@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*  Assignment nom.1
+    div{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #df0756 #df0756 #df0756 transparent;
+        animation-name: spin;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    div::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 135%;
+        height: 135%;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #2490ff transparent #2490ff #2490ff;
+    }
+
+    div::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 165%;
+        height: 165%;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #fc9d00 #fc9d00 transparent #fc9d00;
+    }
+
+    div:hover{
+        animation-play-state: paused;
+    }
+
+    @keyframes spin {
+        to{
+            transform: rotate(1turn);
+        }
+    } 
+*/
+
+/*  Assignment nom.2
+    div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -25px;
+        margin-top: -25px;
+        border-width: 5px;
+        border-style: solid;
+        border-color:#249aff #249aff transparent #249aff;
+        animation-duration: 1s;
+    }
+
+    div::before{
+        content: "";
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 5px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -32px;
+        margin-top: -32px;
+        border-color: #fcaf00 #fcaf00 transparent #fcaf00;
+        animation-duration: 3s;
+    }
+
+    div::after{
+        content: "";
+        width: 67px;
+        height: 67px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 5px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -38px;
+        margin-top: -38px;
+        border-color: #000 #000 transparent #000;
+        animation-duration: 5s;
+    }
+
+    div,
+    div::before,
+    div::after{
+        animation-name: spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-play-state: paused;
+    }
+
+    div:hover,
+    div:hover::before,
+    div:hover::after{
+        animation-play-state: running;
+    }
+
+    @keyframes spin { 
+        to{
+            transform: rotate(1turn);
+        }
+    } 
+*/
+
+/* Assignment nom.3
+    span{
+        width: 50px;
+        height: 50px;
+        background-color: #eee;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+        border: 5px solid #333;
+        border-radius: 50%;
+        border-left-color: transparent;
+        animation-name: spin;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    } 
+
+    @keyframes spin {
+        to{
+            transform: rotate(1turn);
+        }
+    }
+*/
