@@ -1,0 +1,47 @@
+/*  Assignment nom.1
+    div.main.red{
+        color: red;
+    } 
+*/
+
+/* Assignment nom.2
+    body>.parent div:nth-child(2){
+        color: red;
+    }
+*/
+
+/* Assignment nom.3
+    div:nth-of-type(2) div:only-of-type{
+        color: red;
+    } 
+*/
+
+/* Assignment nom.4
+    body>div[title]:not(.no-need){
+        color: red;
+    } 
+*/
+
+/* Assignment nom.5
+    div:nth-child(2) p+div[title=Elzero]{
+        color: red;
+    } 
+*/
+
+/*  Assignment nom.6
+    body>div:not(.no-need) div:nth-last-of-type(2){
+        color: red;
+    } 
+*/
+
+/* Assignment nom.7
+    body>div:nth-child(1) div:nth-last-of-type(2){
+        color: red;
+    } 
+*/
+
+/* Assignment nom.8
+    :not(:first-child, h3 ,:last-child){
+        color: red;
+    } 
+*/
